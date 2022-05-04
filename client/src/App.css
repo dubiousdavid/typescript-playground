@@ -1,0 +1,67 @@
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+td,
+th {
+  padding: 0.5rem;
+}
+
+th {
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.resultTable thead tr {
+  background-color: gray;
+  color: white;
+}
+
+.resultTable thead th:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+.resultTable .alternateRow {
+  background-color: lightgray;
+}
+
+.resultTable .topSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resultTable .pagination {
+  margin-bottom: 0.4rem;
+}
+
+.resultTable .pagination .divider {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: lightgray;
+}
+
+.resultTable .pagination .pages .page {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+}
+
+.resultTable .pagination .pages .currentPage {
+  color: orange;
+}
+
+.resultTable .pagination .pageSize {
+  margin-right: 0.5rem;
+}

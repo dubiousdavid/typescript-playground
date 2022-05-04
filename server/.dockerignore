@@ -1,0 +1,6 @@
+**/.DS_Store
+**/.git*
+Dockerfile
+.dockerignore
+node_modules
+npm*.log
